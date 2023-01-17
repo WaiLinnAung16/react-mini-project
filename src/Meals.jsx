@@ -21,7 +21,7 @@ const Meals = () => {
           loading && <Loader/>
         }
       </div>
-      <div className=' flex flex-wrap gap-5'>
+      <div className=' flex flex-wrap justify-center gap-5'>
         {meals?.map((meal)=><Card key={meal.idMeal} meal={meal}/>)}
       </div>
     </>

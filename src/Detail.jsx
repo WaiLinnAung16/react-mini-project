@@ -24,7 +24,7 @@ const Detail = () => {
           loading && <Loader/>
         }
       </div>
-    <div className=' py-5'>
+    <div className=' p-5'>
       <img src={meal.strMealThumb} className=' h-[500px] rounded-md'/>
       <div className=' mt-5'>
         <h1 className=' py-1 px-5 rounded-full text-white text-sm bg-orange-500 inline'>{meal.strCategory}</h1>
